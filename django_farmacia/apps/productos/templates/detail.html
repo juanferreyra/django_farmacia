@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block titulo %}
+    Producto:
+{% endblock %}
+{% block contenido %}
+    <div class="hero-unit">
+
+    <h1>{{ producto.nombre }}</h1>
+        Codigo : {{ producto.codigo }}<br>
+        Fecha Creacion : {{ producto.fecha_creacion }}
+
+    </div>
+{% endblock %}
